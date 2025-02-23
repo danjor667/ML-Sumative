@@ -24,6 +24,14 @@ the Link to the dataset is provided below.
 - [References](#references)
 
 ---
+## Overview
+| Models                                   | Optimizer        | Regularizer (L1/L2) | Epochs | Early Stopping | Layers | Learning Rate                                  | Additional Metrics            |
+|------------------------------------------|------------------|---------------------|--------|----------------|--------|------------------------------------------------|-------------------------------|
+  | Basic NN(without hyper-parameter tuning) | N/A              | N/A                 | 10      | No              | 4      | N/A                                            | Accuracy: 62%  Precision: 39% |
+| CNN_model.h5                             | Adam             | L1, L2              | 10     | NO             | 4      | vary (adam optimizer ajusts the learning rate) | Accuracy: 73%  Precision: 70% |
+| log_reg.pkl                              | Gradient descent | None                | N/A    | No             | N/A    | 0.0005                                         | Accuracy: 73% Precision: 71   |
+| best_svm.pkl                             | SGD              | L2                  | N/A    | No             | N/A    | N/A                                            | Accuracy:  72% Precision: 70% |
+   | Instance 4                               |                  |                     |        |                |        |                                                |                               |
 
 ## Features
 
